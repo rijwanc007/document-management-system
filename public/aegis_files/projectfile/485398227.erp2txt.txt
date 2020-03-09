@@ -1,0 +1,15 @@
+    ERP software system.
+1.E-commerce integration.
+2.Serialized inventory.
+3.Allows for the tracking of internal and external lot numbers.
+4.Rules-based automated allocation of received inventory to backorders.
+5.Track inventory across multiple warehouses and locations.
+6.Manage the movement of products between warehouses or related companies.
+7.System-generated purchase orders. Ability to link purchase orders directly to sales orders.
+8.Track kits made up of multiple products grouped together for sale.
+9.Enables tracking of true inventory costs including duty, brokerage, freight etc.
+10.Pre-built reports plus access to detailed sales information using various external report writers.
+11.Sales budgeting by product or by customer.
+12.Makes it easy to account for monthly expenses, amortize annual costs over fiscal months, and handle period end accruals.
+13.Makes it simple to pay vendors by credit card, yet still track the costs and expenses to the specific individual vendors – whether payment is made up front or after the delivery.
+14.Bank reconciliation. Multiple simultaneous payment runs are handled, allowing departmental approval processes, and multiple payment types. Accounts in any currency.

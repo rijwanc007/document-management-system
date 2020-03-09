@@ -1,0 +1,83 @@
+1.Sales Order Management
+   a.Automated Order Processing
+   b.Automated Payments
+   c.Real-Time Order Status
+   d.Advanced Shipping
+   e.Order Promising and Inventory Commitment
+   f.Return Management
+   g.Point-Of-Sale (POS)
+   h.Self-Service Vendor Portal
+   i.Self-Service Customer Portal
+   j.Customer Pricing
+2.CRM
+   a.Contact Management
+   b.Estimates and Quotes
+   c.Incentive Management
+   d.Sales Force Automation
+3.Procurement Management
+   a.Bid Management
+   b.Drop Shipments
+   c.Purchase Orders
+   d.Purchase Requests
+   e.Purchase Scheduling
+   f.Multi-Shipment PO
+   g.Vendor Management
+4.Warehouse Management
+   a.Inbound Processing
+   b.Outbound Processing
+   c.Order Picking
+   d.Pick-to-Light (PTL)
+   e.Putaway and Receiving
+   f.Kitting
+   g.Shipping
+   h.Location Tracking
+   i.Slotting Optimization
+   j.Wave and Load Planning
+   k.Container Packing
+   l.Multiple Warehouse Support
+   m.Virtual Yard for Off-Site Equipment
+5.Production/Manufacturing Management
+   a.Bill of Materials
+   b.Capacity Management
+   c.Manufacturing Schedule
+   e.MRP II
+   f.Product Data Collection
+   g.Quality Management
+   h.Shop Floor Control
+   i.Work Order Management
+   j.Assembly Management
+   k.Shop Floor Document Management
+6.Inventory Management
+   a.Inventory Availability
+   b.Inventory Costs
+   c.Inventory Demand Forecasting
+   d.Inventory Bin/Location Control
+   e.Inventory Replenishment
+   f.Distribution Requirements Planning
+   g.Lot and Serial Number
+   h.Multiple Warehouses
+   i.RFID/Barcode and Intelligent Inventory Tagging
+7.Financial Management
+   a.Accounts Payable
+   b.Accounts Receivable
+   c.Accrual-Based Accounting
+   d.Analytic Accounting
+   e.Bank Reconciliation
+   f.Billing and Invoicing
+   g.Budgeting and Forecasting
+   h.Fixed Assets
+   i.Multi-Entity
+   j.Payroll
+   k.Debt and Discounts
+   l.Project Accounting
+   m.Tax Preparation
+8.eCommerce
+   a.eCommerce Transaction Management
+   b.eCommerce Order Fulfillment
+9.Supply Chain Management
+   a.Supplier Relationship Management
+   b.Transportation Management
+10.Logistics Management
+   a.Total Logistics Cost Modeling
+   b.Freight Calculator
+   c.Route Planning

@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Message Subject - mail@mail.com - Aegis International</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Vendor styles -->
+        <link rel="stylesheet" href="../vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css">
+        <link rel="stylesheet" href="../vendors/bower_components/animate.css/animate.min.css">
+        <link rel="stylesheet" href="../vendors/bower_components/jquery.scrollbar/jquery.scrollbar.css">
+
+        <link rel="stylesheet" href="../vendors/bower_components/sweetalert2/dist/sweetalert2.min.css">
+        <link rel="stylesheet" href="../vendors/bower_components/trumbowyg/dist/ui/trumbowyg.min.css">
+        <link rel="stylesheet" href="../vendors/bower_components/select2/dist/css/select2.min.css">
+        <!-- App styles -->
+        <link rel="stylesheet" href="../css/app.min.css">
+        <link rel="stylesheet" href="../css/custom.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body data-sa-theme="1">
+        <main class="main">
+            <div class="page-loader">
+                <div class="page-loader__spinner">
+                    <svg viewBox="25 25 50 50">
+                        <circle cx="50" cy="50" r="20" fill="none" stroke-width="2" stroke-miterlimit="10" />
+                    </svg>
+                </div>
+            </div>
+
+            <header class="header">
+                <div class="navigation-trigger hidden-xl-up" data-sa-action="aside-open" data-sa-target=".sidebar">
+                    <i class="zmdi zmdi-menu"></i>
+                </div>
+
+                <div class="logo hidden-sm-down">
+                    <h1><a href="../index.html"><span>Aegis</span> International</a></h1>
+                </div>
+
+                <form class="search">
+                    <div class="search__inner">
+                        <input type="text" class="search__text" placeholder="Search for project, supplier, contact...">
+                        <i class="zmdi zmdi-search search__helper" data-sa-action="search-close"></i>
+                    <div class="dropdown-new sm-width pull-right mr-1-half">
+                        <div class="select">
+                           <span>Category</span>
+                           <i class="zmdi zmdi-chevron-left"></i>
+                        </div>
+                        <input type="hidden" name="sort">
+                        <ul class="dropdown-menu-new call-sort">
+                           <li>Project</li>
+                           <li>Supplier</li>
+                           <li>Contact</li>
+                           <li>Employee</li>
+                        </ul>
+                    </div>
+                    </div>
+                   
+                </form>
+
+                <ul class="top-nav">
+                    <li class="hidden-xl-up"><a href="" data-sa-action="search-open"><i class="zmdi zmdi-search"></i></a></li>
+
+                    <li class="dropdown">
+                        <a href="" data-toggle="dropdown" class="top-nav__notify"><i class="zmdi zmdi-email"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu--block">
+                            <div class="dropdown-header">
+                                Messages
+                            </div>
+
+                            <div class="listview listview--hover">
+                                <a href="" class="listview__item">
+                                    <img src="../demo/img/profile-pics/1.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">
+                                            David Belle <small>12:01 PM</small>
+                                        </div>
+                                        <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="listview__item">
+                                    <img src="../demo/img/profile-pics/2.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">
+                                            Jonathan Morris
+                                            <small>02:45 PM</small>
+                                        </div>
+                                        <p>Nunc quis diam diamurabitur at dolor elementum, dictum turpis vel</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="listview__item">
+                                    <img src="../demo/img/profile-pics/3.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">
+                                            Fredric Mitchell Jr.
+                                            <small>08:21 PM</small>
+                                        </div>
+                                        <p>Phasellus a ante et est ornare accumsan at vel magnauis blandit turpis at augue ultricies</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="listview__item">
+                                    <img src="../demo/img/profile-pics/4.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">
+                                            Glenn Jecobs
+                                            <small>08:43 PM</small>
+                                        </div>
+                                        <p>Ut vitae lacus sem ellentesque maximus, nunc sit amet varius dignissim, dui est consectetur neque</p>
+                                    </div>
+                                </a>
+
+                                <a href="" class="listview__item">
+                                    <img src="../demo/img/profile-pics/5.jpg" class="listview__img" alt="">
+
+                                    <div class="listview__content">
+                                        <div class="listview__heading">
+                                            Bill Phillips
+                                            <small>11:32 PM</small>
+                                        </div>
+                                        <p>Proin laoreet commodo eros id faucibus. Donec ligula quam, imperdiet vel ante placerat</p>
+                                    </div>
+                                </a>
+
+                                <a href="inbox.html" class="view-more">View all messages</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown top-nav__notifications">
+                        <a href="" data-toggle="dropdown" class="top-nav__notify">
+                            <i class="zmdi zmdi-notifications"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu--block">
+                            <div class="dropdown-header">
+                                Notifications
+
+                                <div class="actions">
+                                    <a href="" class="actions__item zmdi zmdi-check-all" data-sa-action="notifications-clear"></a>
+                                </div>
+                            </div>
+
+                            <div class="listview listview--hover">
+                                <div class="listview__scroll scrollbar-inner">
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/1.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">David Belle</div>
+                                            <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/2.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">Jonathan Morris</div>
+                                            <p>Nunc quis diam diamurabitur at dolor elementum, dictum turpis vel</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/3.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">Fredric Mitchell Jr.</div>
+                                            <p>Phasellus a ante et est ornare accumsan at vel magnauis blandit turpis at augue ultricies</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/4.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">Glenn Jecobs</div>
+                                            <p>Ut vitae lacus sem ellentesque maximus, nunc sit amet varius dignissim, dui est consectetur neque</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/5.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">Bill Phillips</div>
+                                            <p>Proin laoreet commodo eros id faucibus. Donec ligula quam, imperdiet vel ante placerat</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/1.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">David Belle</div>
+                                            <p>Cum sociis natoque penatibus et magnis dis parturient montes</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/2.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">Jonathan Morris</div>
+                                            <p>Nunc quis diam diamurabitur at dolor elementum, dictum turpis vel</p>
+                                        </div>
+                                    </a>
+
+                                    <a href="" class="listview__item">
+                                        <img src="../demo/img/profile-pics/3.jpg" class="listview__img" alt="">
+
+                                        <div class="listview__content">
+                                            <div class="listview__heading">Fredric Mitchell Jr.</div>
+                                            <p>Phasellus a ante et est ornare accumsan at vel magnauis blandit turpis at augue ultricies</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="p-1"></div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown hidden-xs-down">
+                        <a href="" data-toggle="dropdown"><i class="zmdi zmdi-apps"></i></a>
+
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu--block" role="menu">
+                            <div class="row app-shortcuts">
+                                <a class="col-4 app-shortcuts__item" href="../all-projects.html">
+                                    <i class="zmdi zmdi-file-text"></i>
+                                    <small class="">Projects</small>
+                                </a>
+                                <a class="col-4 app-shortcuts__item" href="inbox.html">
+                                    <i class="zmdi zmdi-email"></i>
+                                    <small class="">Email</small>
+                                </a>
+                                <a class="col-4 app-shortcuts__item" href="../all-supplier.html">
+                                    <i class="zmdi zmdi-trending-up"></i>
+                                    <small class="">Suppliers</small>
+                                </a>
+                                <a class="col-4 app-shortcuts__item" href="../employees.html">
+                                    <i class="zmdi zmdi-assignment-account"></i>
+                                    <small class="">Employees</small>
+                                </a>
+                                <a class="col-4 app-shortcuts__item" href="../contacts.html">
+                                    <i class="zmdi zmdi-account-box-phone"></i>
+                                    <small class="">Contacts</small>
+                                </a>
+                                <a class="col-4 app-shortcuts__item" href="../calendar.html">
+                                    <i class="zmdi zmdi-calendar"></i>
+                                    <small class="">Calendar</small>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown hidden-xs-down">
+                        <a href="" data-toggle="dropdown"><i class="zmdi zmdi-more-vert"></i></a>
+
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="" class="dropdown-item" data-sa-action="fullscreen">Fullscreen</a>
+                            <a href="../security.html" class="dropdown-item">Security</a>
+                        </div>
+                    </li>
+
+                    <li class="hidden-xs-down">
+                        <a href="" class="top-nav__themes" data-sa-action="aside-open" data-sa-target=".themes"><i class="zmdi zmdi-palette"></i></a>
+                    </li>
+                </ul>
+
+                <div class="clock hidden-md-down">
+                    <div class="time">
+                        <span class="time__hours"></span>
+                        <span class="time__min"></span>
+                        <span class="time__sec"></span>
+                    </div>
+                </div>
+            </header>
+
+            <aside class="sidebar">
+                <div class="scrollbar-inner">
+
+                    <div class="user">
+                        <div class="user__info" data-toggle="dropdown">
+                            <img class="user__img" src="../demo/img/profile-pics/8.jpg" alt="">
+                            <div>
+                                <div class="user__name">Malinda Hollaway</div>
+                                <div class="user__email">malinda-h@gmail.com</div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="">View Profile</a>
+                            <a class="dropdown-item" href="">Logout</a>
+                        </div>
+                    </div>
+
+                    <ul class="navigation">
+                        <li><a href="../index.html"><i class="zmdi zmdi-home"></i> Home</a></li>
+
+                        <li class="navigation__sub navigation__sub--active navigation__sub--toggled">
+                            <a href=""><i class="zmdi zmdi-email"></i> Mail</a>
+
+                            <ul>
+                                <li><a href="javascript:void(0)" class="btn-compose" data-toggle="modal" data-target="#modal-compose">Compose Message</a></li>
+                                <li><a href="inbox.html">Inbox</a> <span class="badge badge-light">10</span></li>
+                                <li><a href="draft.html">Draft</a> <span class="badge badge-light">10</span></li>
+                                <li><a href="sent.html">Sent</a> <span class="badge badge-light">10</span></li>
+                                <li><a href="spam.html">Spam</a> <span class="badge badge-light">10</span></li>
+                                <li><a href="trash.html">Trash</a> <span class="badge badge-light">10</span></li>
+                                <li><a href="stared.html" class="stared">Starred</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="navigation__sub">
+                            <a href=""><i class="zmdi zmdi-widgets"></i> Project Management</a>
+
+                            <ul>
+                                <li><a href="../all-projects.html">All Projects</a></li>
+                                <li><a href="../pro_add.html">Add New Project</a></li>
+                                <li class="navigation__sub"><a href="javascript:void(0)">Project Catagory</a>
+                                <ul>
+                                    <li><a href="../cat_add_pro.html">Add New Category</a></li>
+                                    <li><a href="../cat_add_sub_pro.html">Add Sub Category</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="navigation__sub">
+                            <a href=""><i class="zmdi zmdi-widgets"></i> Supplier Management</a>
+
+                            <ul>
+                                <li><a href="../all-supplier.html">All Supplier</a></li>
+                                <li><a href="../sup_add.html">Add New Supplier</a></li>
+                                <li class="navigation__sub"><a href="javascript:void(0)">Supplier Catagory</a>
+                                <ul>
+                                    <li><a href="../cat_add_sup.html">Add New Category</a></li>
+                                    <li><a href="../cat_add_sub_sup.html">Add Sub Category</a></li>
+                                </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="navigation__sub">
+                            <a href=""><i class="zmdi zmdi-widgets"></i> Contact Management</a>
+
+                            <ul>
+                                <li><a href="../contacts.html">All Contact</a></li>
+                                <li><a href="../new-contact.html">New Contact</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="navigation__sub">
+                            <a href=""><i class="zmdi zmdi-widgets"></i> Employee Management</a>
+
+                            <ul>
+                                <li><a href="javascript:void(0)" data-toggle="modal" data-target="#corp-mail">Create Employee Mail</a></li>
+                                <li><a href="../employees.html">All Employee</a></li>
+                                <li><a href="../new-employee.html">New Employee</a></li>
+                            </ul>
+                        </li>
+                        <li class="navigation__sub">
+                            <a href=""><i class="zmdi zmdi-settings"></i> Settings</a>
+
+                            <ul>
+                                <li class="navigation__sub"><a href="javascript:void(0)">Role Management</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Manage Role</a></li>
+                                        <li><a href="javascript:void(0)">Add Role</a></li>
+                                    </ul>
+                                </li>
+                                <li class="navigation__sub"><a href="javascript:void(0)">Permission</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Manage Permission</a></li>
+                                                <li><a href="javascript:void(0)">Add Permission</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="../security.html"><i class="zmdi zmdi-shield-security"></i> Security</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="nav_support">
+                        <a href="http://ftit.co.uk/" target="_blank">
+                            <span class="top-word">Support</span> <span class="bottom-word">Future Track <span>I</span>T</span>
+                        </a>
+                    </div>
+                
+            </aside>
+
+            <div class="themes">
+    <div class="scrollbar-inner">
+        <a href="" class="themes__item active" data-sa-value="1"><img src="../img/bg/1.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="2"><img src="../img/bg/2.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="3"><img src="../img/bg/3.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="4"><img src="../img/bg/4.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="5"><img src="../img/bg/5.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="6"><img src="../img/bg/6.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="7"><img src="../img/bg/7.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="8"><img src="../img/bg/8.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="9"><img src="../img/bg/9.jpg" alt=""></a>
+        <a href="" class="themes__item" data-sa-value="10"><img src="../img/bg/10.jpg" alt=""></a>
+    </div>
+</div>
+<!-- Compose message Modal Start  -->
+<div class="modal fade" id="modal-compose" data-backdrop="static" tabindex="-1">
+    <div class="modal-dialog modal-lg-cus">
+        <div class="modal-content modal-cus-bg">
+            <div class="modal-header">
+                <h5 class="modal-title pull-left text-uppercase">Compose Message</h5>
+                <div class="ccbcc">
+                    <span class="cc" onclick="cc(this)">Cc</span>
+                    <span class="bcc" onclick="bcc(this)">Bcc</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="To">
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control cc-text" placeholder="Cc">
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control bcc-text" placeholder="Bcc">
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject">
+                    <i class="form-group__bar"></i>
+                </div>
+                <div class="wysiwyg-editor"></div>
+               
+                <div class="uploaded-demo">
+                    <span>fileName ( 500 KB )</span>
+                    <span class="remove-file"><i class="fa fa-times"></i></span>
+                </div>
+                <div class="uploaded-demo">
+                    <span>fileName ( 500 KB )</span>
+                    <span class="remove-file"><i class="fa fa-times"></i></span>
+                </div>
+                <div class="uploaded-demo">
+                    <span>fileName ( 500 KB )</span>
+                    <span class="remove-file"><i class="fa fa-times"></i></span>
+                </div>
+
+                <buttun class="btn btn-light upload-attachment">Upload Attachment</buttun>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-link">Send Message</button>
+                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Compose message Modal Start End  -->
+<!-- Reply Forward message Modal Start  -->
+<div class="modal fade" id="modal-rep-for" data-backdrop="static" tabindex="-1">
+    <div class="modal-dialog modal-lg-cus">
+        <div class="modal-content modal-cus-bg">
+            <div class="modal-header">
+                <h5 class="modal-title pull-left text-uppercase"></h5>
+                <div class="ccbcc">
+                    <span class="cc" onclick="cc(this)">Cc</span>
+                    <span class="bcc" onclick="bcc(this)">Bcc</span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="To" id="reply_to">
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control cc-text" placeholder="Cc">
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control bcc-text" placeholder="Bcc">
+                    <i class="form-group__bar"></i>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject" id="reply_subject">
+                    <i class="form-group__bar"></i>
+                </div>
+                <div class="wysiwyg-editor"></div>
+               
+                
+
+                <buttun class="btn btn-light upload-attachment mt-4">Upload Attachment</buttun>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-link">Send Message</button>
+                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Reply Forward Modal Start End  -->
+<!-- Corporate Mail Modal Start  -->
+<div class="modal fade" id="corp-mail" data-backdrop="static" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title pull-left text-uppercase">Create Employee Mail</h5>
+            </div>
+            <div class="modal-body">
+                
+               
+                <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Select Employee</label>
+
+                                        <select class="select2">
+                                            <option>Subaru</option>
+                                            <option>Mitsubishi</option>
+                                            <option>Scion</option>
+                                            <option>Daihatsu</option>
+                                            <option>Hino</option>
+                                            <option>Subaru</option>
+                                            <option>Mitsubishi</option>
+                                            <option>Scion</option>
+                                            <option>Daihatsu</option>
+                                            <option>Hino</option>
+                                            <option>Subaru</option>
+                                            <option>Mitsubishi</option>
+                                            <option>Scion</option>
+                                            <option>Daihatsu</option>
+                                            <option>Hino</option>
+                                            <option>Subaru</option>
+                                            <option>Mitsubishi</option>
+                                            <option>Scion</option>
+                                            <option>Daihatsu</option>
+                                            <option>Hino</option>
+                                            <option>Subaru</option>
+                                            <option>Mitsubishi</option>
+                                            <option>Scion</option>
+                                            <option>Daihatsu</option>
+                                            <option>Hino</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Corporate Mail</label>
+                                        <input type="text" class="form-control" placeholder="i.e. JohnDoe20@agis.com">
+                                        <i class="form-group__bar"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>New Password</label>
+                                        <input type="text" class="form-control" placeholder="Enter Your New Password">
+                                        <i class="form-group__bar"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Re-type New Password</label>
+                                        <input type="text" class="form-control" placeholder="Re-type Your New Password">
+                                        <i class="form-group__bar"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-link">Create Mail</button>
+                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Corporate Mail Modal End  -->
+<!-- Spam Modal Start  -->
+<div class="modal fade" id="spam-mail" data-backdrop="static" >
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                
+               <h5>Did this person really write this message?</h5>
+               <p>
+                You marked this message as spam, but you have contacted the sender before. Do you think someone might be posing as them to send spam? If so, click "Looks suspicious" and let them know. Otherwise click "It's just spam."
+               </p>
+
+
+            </div>
+            <div class="modal-footer p-0 pb-2 pr-2">
+                <button type="submit" class="btn btn-link">Report Spam</button>
+                <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Spam Modal End  -->
+            <section class="content">
+                <div class="content__inner">
+                    <header class="content__title mail-header">
+                        <h1>Message Subject</h1>
+                    </header>
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-1 col-2">
+                                    <div class='mail-pro-img'>
+                                        <img src="../demo/img/contacts/14.jpg" alt="pro-pic">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-10">
+                                    <div class="sender">John Doe <span class="sm-none">&lt; JohnDoe@mail.com &gt;</span> </div>
+                                    <div class="sent-to">to me <i class="zmdi zmdi-caret-down sent-mail-info"></i>
+                                    <div class="mail-full-info">
+                                        <p class="mail_from">From : John Doe &lt; JohnDoe@mail.com &gt;</p>
+                                        <p class="mail_sent_to">To : John Doe &lt; JohnDoe@mail.com &gt;</p>
+                                        <p class="mail_sent_date">Date : Dec 17, 2018, 8:35 PM</p>
+                                        <p class="sent_mail_sub">Subject : Test mail for development..</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 text-right">
+                                    <div class="right-container">
+                                        <i class="zmdi zmdi-attachment" title="Attachments"></i>
+                                        <div class="recieve-date">Dec 17, 2018, 8:35 PM ( 12 hours ago )</div>
+                                        <div class="actions-open-mail">
+                                            <input class="star sm-none" type="checkbox" title="Make Star">
+                                            <a href="javascript:void(0)" data-toggle="modal" data-target="#modal-rep-for" title="Reply Message" class="mail-rep rep-action">
+                                                <i class="zmdi zmdi-mail-reply"></i>
+                                            </a>
+                                            <div class="more-op-container">
+                                                <div data-toggle="dropdown" class="dropdown actions__item check-option">
+                                                    <span class="sm-none">More</span>
+                                                    <span class="md-none zmdi zmdi-more-vert"></span>
+                                                    <i  class="sm-none zmdi zmdi-caret-down"></i>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a href="javascript:void(0)" class="dropdown-item rep-action" title="Reply Message" data-toggle="modal" data-target="#modal-rep-for">Reply</a>
+                                                        <a href="javascript:void(0)" class="dropdown-item forward-action" title="Forward Message" data-toggle="modal" data-target="#modal-rep-for">Forward</a>
+                                                        <a href="javascript:void(0)" class="dropdown-item delete-message">Delete</a>
+                                                        <a href="javascript:void(0)" class="dropdown-item" data-toggle="modal" data-target="#spam-mail">Report Spam</a>
+                                                        <a href="javascript:void(0)" class="dropdown-item lg-none star-marked md-none">Mark As Starred</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mt-2">
+
+                                    <div class="txt-messages">
+                                     
+                                        <p class="mb-1">Hey John, </p>
+
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                        <blockquote class="text-muted">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                        </blockquote>
+                                    </div>
+                                    <div class="attachments">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <div class="attachment-pre-con">
+                                                    <img src="../demo/img/contacts/14.jpg" alt="">
+                                                </div>
+                                                <div class="attachment-action">
+                                                    <div class="thumble-img">
+                                                        <img src="../img/image.png" alt="Image Thumble">
+                                                    </div>
+                                                    <div class="attachment-name">My New Image.png</div>
+                                                    <div class="attachment-size">4.5 KB</div>
+                                                    <a href="" class="download-attachment"><i class="zmdi zmdi-download"></i></a>
+                                                </div>
+                                            </li>
+                                            <li class="file">
+                                                <div class="attachment-pre-con">
+                                                        <img src="../img/zip.png" alt="">
+                                                </div>
+                                                <div class="attachment-action">
+                                                    <div class="thumble-img">
+                                                        <img src="../img/zip.png" alt="Image Thumble">
+                                                    </div>
+                                                    <div class="attachment-name">My New Image.zip</div>
+                                                    <div class="attachment-size">4.5 KB</div>
+                                                    <a href="" class="download-attachment"><i class="zmdi zmdi-download"></i></a>
+                                                </div>
+                                            </li>
+                                            <li class="file">
+                                                <div class="attachment-pre-con">
+                                                        <img src="../img/doc.png" alt="">
+                                                </div>
+                                                <div class="attachment-action">
+                                                    <div class="thumble-img">
+                                                        <img src="../img/doc.png" alt="Image Thumble">
+                                                    </div>
+                                                    <div class="attachment-name">My New Image.doc</div>
+                                                    <div class="attachment-size">4.5 KB</div>
+                                                    <a href="" class="download-attachment"><i class="zmdi zmdi-download"></i></a>
+                                                </div>
+                                            </li>
+                                            <li class="file">
+                                                <div class="attachment-pre-con">
+                                                        <img src="../img/excel.png" alt="">
+                                                </div>
+                                                <div class="attachment-action">
+                                                    <div class="thumble-img">
+                                                        <img src="../img/excel.png" alt="Image Thumble">
+                                                    </div>
+                                                    <div class="attachment-name">My New Image.xisx</div>
+                                                    <div class="attachment-size">4.5 KB</div>
+                                                    <a href="" class="download-attachment"><i class="zmdi zmdi-download"></i></a>
+                                                </div>
+                                            </li>
+                                            <li class="file">
+                                                <div class="attachment-pre-con">
+                                                        <img src="../img/file.png" alt="">
+                                                </div>
+                                                <div class="attachment-action">
+                                                    <div class="thumble-img">
+                                                        <img src="../img/file.png" alt="Image Thumble">
+                                                    </div>
+                                                    <div class="attachment-name">My New Image.pdf</div>
+                                                    <div class="attachment-size">4.5 KB</div>
+                                                    <a href="" class="download-attachment"><i class="zmdi zmdi-download"></i></a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <footer class="footer">
+                    <p>© Developed By <a href="http://ftit.co.uk/" class="text-white">Future Track IT</a>. All rights reserved.</p>
+
+                    <ul class="nav footer__nav">
+                        <a class="nav-link" href="">Homepage</a>
+
+                        <a class="nav-link" href="">Company</a>
+
+                        <a class="nav-link" href="">Support</a>
+
+                        <a class="nav-link" href="">News</a>
+
+                        <a class="nav-link" href="">Contacts</a>
+                    </ul>
+                </footer>
+            </section>
+        </main>
+
+
+        <!-- Javascript -->
+        <!-- Vendors -->
+        <script src="../vendors/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="../vendors/bower_components/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../vendors/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="../vendors/bower_components/jquery.scrollbar/jquery.scrollbar.min.js"></script>
+        <script src="../vendors/bower_components/jquery-scrollLock/jquery-scrollLock.min.js"></script>
+
+        <script src="../vendors/bower_components/sweetalert2/dist/sweetalert2.min.js"></script>
+        <script src="../vendors/bower_components/autosize/dist/autosize.min.js"></script>
+        <script src="../vendors/bower_components/select2/dist/js/select2.full.min.js"></script>
+
+        <script src="../vendors/bower_components/trumbowyg/dist/trumbowyg.min.js"></script>
+        
+        <!-- App functions and actions -->
+        <script src="../js/app.min.js"></script>
+        <script src="../js/mail.js"></script>
+
+       
+    </body>
+</html>

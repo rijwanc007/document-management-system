@@ -1,0 +1,150 @@
+ ->react->calener & schedule
+1.https://reactjsexample.com/a-scheduler-and-resource-planning-component-built-for-react/
+2.https://ej2.syncfusion.com/demos/?_ga=2.106088263.592301006.1560937164-968671573.1560937164#/material/schedule/timeline-resources.html
+3.https://code.daypilot.org/44666/html5-doctor-appointment-scheduling-javascript-php
+4.https://fullcalendar.io/
+5.https://mdbootstrap.com/plugins/jquery/full-calendar/
+6.https://www.youtube.com/watch?v=LHzqNLaVhYw
+7.https://codepen.io/ecernaruiz/pen/bPqKOp
+8.https://codepen.io/xmark/pen/WQaXdv
+9.https://codepen.io/maggiben/pen/OPmLBW
+
+
+->video player control react.
+1.https://stackoverflow.com/questions/37463832/how-to-play-pause-video-in-react-without-external-library
+
+
+->preview link image->facebook
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Dream Hotel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta property="og:title" content="Moon House Moon Park">
+<meta property="og:image" content="http://www.moonhousemoonpark.com/images/about_side/moon22.jpg">
+<meta property="og:description" content="Enjoying with the nature at both Moon House and Moon Park. Spicy food, fresh air, green trees, winter dark night.....now preparing to sleep....feeling better.">
+<meta property="og:url" content="http://www.moonhousemoonpark.com/">
+1.https://developers.facebook.com/tools/debug/sharing/
+2.https://stackoverflow.com/questions/5776567/facebook-open-graph-not-clearing-cache
+3.http://www.example.com?fbrefresh=CAN_BE_ANYTHING
+4.https://developers.facebook.com/tools/debug/og/object
+
+
+->image->viewer
+1.https://codepen.io/mawa_hujihara/pen/ZezdeJ
+
+->laravel join react
+1.https://www.techiediaries.com/access-update-parent-state-child-component-react/
+
+->login setup by react.....
+1.https://dev.to/nsebhastian/react-form-real-time-validation-using-state-1eeg
+
+->deploy react laravel project
+1.https://stackoverflow.com/questions/44356861/how-to-deploy-react-laravel-project
+
+->support es6 to the laravel project
+1.https://stackoverflow.com/questions/48189199/compiling-es6-react-code-using-laravel-mix
+
+->Refresh page React-Laravel
+1.https://stackoverflow.com/questions/52028454/refresh-page-react-laravel
+
+->image_map
+1.http://imagemap-generator.dariodomi.de/
+
+->popup
+1.https://codepen.io/designcouch/pen/obvKxm
+
+->search button
+1.https://www.mockplus.com/blog/post/search-bar-design
+
+->mouse_effect
+1.https://onextrapixel.com/20-codepen-solutions-for-awesome-mouse-effects/
+
+->hover effect
+1.https://codepen.io/z-/pen/bpxgWZ
+
+->image_hover_effect
+1.https://bootsnipp.com/snippets/92e5X
+
+
+->clippy css
+1.https://bennettfeely.com/clippy/
+
+->npm run watch
+1.https://laracasts.com/discuss/channels/vue/npm-run-watch-error-not-working-in-laravel
+
+->laravel migrate error
+1.https://stackoverflow.com/questions/42244541/laravel-migration-error-syntax-error-or-access-violation-1071-specified-key-wa?rq=1
+
+->laravel_mix
+1.https://laravel.com/docs/5.8/mix#react
+
+->laravel_react_login
+1.https://developer.okta.com/blog/2018/12/06/crud-app-laravel-react
+
+->image move to public_html
+1.https://www.pixelvars.com/laravel-change-public-html-to-public_html-the-right-way/
+->font-families
+1.https://codepen.io/team/sparkbox/full/OMdwoJ
+
+->calculator
+1.https://codepen.io/jyved/pen/vNYZPJ
+
+->auto loan calculator
+1.https://codepen.io/FDfranklin/pen/umwlh
+
+->canvas
+1.https://davidwalsh.name/codepen-demos
+
+->client_review
+1.https://www.webdesignerexpress.com/reviews/
+
+->slide show
+1.https://codepen.io/piyush_marvaniya/pen/mzzWmp
+2.https://codepen.io/jeffgarris/pen/EIchb
+3.https://codepen.io/tjoen/pen/zEtGf
+4.https://mdbootstrap.com/docs/jquery/javascript/carousel/
+5.https://www.jqueryscript.net/slider/Responsive-Full-Width-jQuery-Image-Slider-Plugin-skdslider.html
+
+
+->npm jquery ui install
+1.https://stackoverflow.com/questions/34219046/using-npm-install-to-install-jquery-ui
+
+->react and jquery combine
+1.https://stackoverflow.com/questions/35082047/call-external-javascript-function-from-react-components
+
+->react email send
+1.https://www.npmjs.com/package/sendmail
+
+->deploye react project with vaild route
+1.https://create-react-app.dev/docs/deployment.
+https://stackoverflow.com/questions/46941278/react-production-build-404-not-found.
+
+->laravel_excel
+1.https://laravel-news.com/five-hidden-features-of-the-laravel-excel-package
+2.https://docs.laravel-excel.com/3.1/getting-started/installation.html
+3.https://itsolutionstuff.com/post/import-and-export-csv-file-in-laravel-58example.html(complete)
+
+->html to pdf download
+1.https://medium.com/@zeeshan_rasool/laravel-5-8-how-to-generate-html-to-pdf-with-laravel-dompdf-676f021bf29f
+
+->laravel print
+1.https://fahmidasclassroom.com/how-to-setup-print-option-in-laravel/
+2.https://stackoverflow.com/questions/468881/print-div-id-printarea-div-only(js)->without plugin :)
+
+->laravel collective
+1.https://laravelcollective.com/docs/5.4/html
+
+->migration error
+1.https://stackoverflow.com/questions/48744687/laravel-5-6-table-creation-failed
+
+->live streaming video webiste
+1.https://www.quora.com/What-are-the-best-API-sources-or-platforms-to-build-a-live-video-streaming-website-in-PHP
+
+->houwai cloud
+1.https://intl.huaweicloud.com/en-us/?fbclid=IwAR3VS0Y_Sa-mtTzfpByQGoLZYRT7pwqS611Ngv0jn1os8JiQcn-JAW15sk8
+
+->pdf $ doc
+1.http://www.onlineicttutor.com/view-pdf-in-iframe-at-laravel/
+
+->bangali number
+1.https://www.npmjs.com/package/bengali-number
+2.https://jsbin.com/nozanej/edit?js,output

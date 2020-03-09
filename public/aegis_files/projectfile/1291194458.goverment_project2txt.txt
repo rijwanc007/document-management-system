@@ -1,0 +1,35 @@
+ web application:
+1.create account for organization.
+2.monitiogin and havaing the access of the information and all the othe features.
+3.create multiple projects.
+4.create account for the project admin.
+5.create forms,app users/data collectors,user area assign.
+6.data visulalization and track the path of the user
+7.create or assign forms form the project.
+8.create or assign data collectors or app users for the specific project
+9.data visualization and track the path of the data collector.
+10.admin create organization.
+11.organization admin have user and password to access website after logging page redirect of those porject that will be created by the these organization.add new project and search the existing created project and alse albe to create an account for project admin.
+12.app users and their area and data reiview will be used by both organization admin and project admin.
+13.organization and project admin create user who can use project information for there project.
+14.create the forms which will be available to all the projects to be used in their project .
+15. dragged and dropped to create the form.
+16.The tool box will have contents like textbox, number input, single select, multiple select, scanner, picture, audio,video buttons etc
+17.users will be assigned with the area and the form by the admins
+18.assign the users which are already created by the other projects or organization admin
+19.the app user will be assigned with a marked area. The area marking will be done in this map page by the admins either by manually drawing on the map or uploading kml file.
+20.the admins can view the data which will be collected by the app users. The data can be viewed by three process ways.Table view, map view and the report view. 
+21. Admins will be able to filter the table view of the data according to his need. Example: District, Upazila, Union, Team, Date, User Wise etc.
+22.the admins can view the path record of the data collectors with the collected point data. In this window there will be several options like basemaps ( google maps, satellite view), locate button, heat maps, coverage showing, estimated dog population etc.And Admins will be able to filter the data according to his need. Example:District, Upazila, Union, Team, Date, User Wise on the map view etc.
+23.Report view will contain pie charts and bar charts. And there will be 2 custom reporting based on the 2 or 3 data column. One is coverage and the other is estimated dog population. 
+24.features like gallery and data downloads.
+   android application
+feature also.
+
+worker - 2+1
+working days - 30 days
+hr - 8
+
+
+
+
